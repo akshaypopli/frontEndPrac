@@ -160,9 +160,8 @@ ul > * {
 }
 
 /* changes according to size of window */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 990px) {
     body {
-      background-color: darkgrey;
       background-size: cover;
     }
 
@@ -185,15 +184,19 @@ ul > * {
     .c-contact{
         text-align: left;
         border-right: 1px solid #fff;
-        padding: 15px;
+        padding: 15px 5px;
     }
 
     .c-search {
         text-align: right;
     }
+
+    .c-social {
+        padding: 15px 5px;
+    }
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 767px) {
     body {
       background-color: darkgrey;
       background-size: cover;
