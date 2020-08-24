@@ -5,12 +5,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-	<!-- header -->
+		
+		<!-- header -->
 		<header class="col-sm-12">
 			<div class="col-sm-2 c-contact">
 				<tel><i class="fas fa-phone-alt"></i> 555-555-5555</tel>
@@ -26,23 +27,97 @@
 				<i class="fas fa-search"></i>
 			</div>
 		</header>
+
 		<!-- navigator -->
-		<nav class="row col-sm-12">
+		<!-- <nav class="row col-sm-12">
 			<div class="col-sm-2 c-logo">
 				<h1>Trade</h1>
 			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="col-sm-4"></div>
-			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
 			<ul class="c-nav col-sm-5">
-				<li class="dropdown-toggle">Home</li>
-				<li class="dropdown-toggle">Pages</li>
-				<li class="dropdown-toggle">Blog</li>
-				<li class="dropdown-toggle">Portfolio</li>
+				<li class="dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="dropdown-toggle" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="dropdown-toggle" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
 				<li>Features</li>
+				
 			</ul>
 			
 			<div class="col-sm-1"></div>
-		</nav>
+		</nav> -->
+
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+			<h1>Trade</h1>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse">
+
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav c-margin-10">
+				<li class="nav-item dropdown"><a class="dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="nav-item dropdown"><a class="dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="nav-item dropdown"><a class="dropdown-toggle" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li class="nav-item dropdown"><a class="dropdown-toggle" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+						<a class="dropdown-item" href="#">Action 1</a>
+						<a class="dropdown-item" href="#">Action 2</a>
+						<a class="dropdown-item" href="#">Action 3</a>
+					  </div>
+				</li>
+				<li>Features</li>
+			  </ul>
+			</div>
+		  </nav>
 
 		<main>
 			<p>Helping you Achieve</p>
@@ -85,13 +160,16 @@
 					</p>
 				</div>
 				<figure class="c-strategies-graph">
-					<!-- <img src="graph.jpg" width="100%" height="400"> -->
-
 					<source srcset="graph.webp" type="image/webp" width="100%" height="400">
-					<source srcset="graph.jpg" type="image/jpeg" width="100%" height="400"> 
+					<!-- <source srcset="graph.jpg" type="image/jpeg" width="100%" height="400">  -->
 					<img src="graph.jpg" width="100%" height="400">
 				</figure>
 			</section>
 		</main>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 	</body>
 </html>
